@@ -12,7 +12,7 @@ import matplotlib
 from datetime import datetime
 
 #open file from the right directory
-f1 = open("/Users/merondibia/Desktop/Rutgers/Research/Fungi CO2 mearments/Data/111856.txt", "r")
+f1 = open("111856.txt", "r")
 mainstring = f1.read() # assign the info into a string variable 
 my_list1 = mainstring.split("\n") # break up each line of the string and make it a list 
 
